@@ -3021,7 +3021,7 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"2Ew96","react-redux":"62sf7","./store/slices/scripts":"t2gdX","react-router-dom":"9xmpe","./pages/Home":"63CgF","./pages/Cart":"bg1io","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"2Ew96","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-redux":"62sf7","react-router-dom":"9xmpe","./pages/Home":"63CgF","./pages/Cart":"bg1io","./store/slices/scripts":"t2gdX"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27312,254 +27312,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./store/slices/productslist":"NcjOz","./Components/Products":"1s9w8","./store/slices/scripts":"t2gdX","react-redux":"62sf7","./App.css":"7g3a6","./Components/Header":"l4D8n","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"NcjOz":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "productlist", ()=>productlist);
-const productlist = [
-    {
-        "id": 1,
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "price": 109.95,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 120
-        }
-    },
-    {
-        "id": 2,
-        "title": "Mens Casual Premium Slim Fit T-Shirts ",
-        "price": 22.3,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-        }
-    },
-    {
-        "id": 3,
-        "title": "Mens Cotton Jacket",
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 4.7,
-            "count": 500
-        }
-    },
-    {
-        "id": 4,
-        "title": "Mens Casual Slim Fit",
-        "price": 15.99,
-        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 2.1,
-            "count": 430
-        }
-    },
-    {
-        "id": 5,
-        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
-        "price": 695,
-        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 4.6,
-            "count": 400
-        }
-    },
-    {
-        "id": 6,
-        "title": "Solid Gold Petite Micropave ",
-        "price": 168,
-        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 3.9,
-            "count": 70
-        }
-    },
-    {
-        "id": 7,
-        "title": "White Gold Plated Princess",
-        "price": 9.99,
-        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 3,
-            "count": 400
-        }
-    },
-    {
-        "id": 8,
-        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
-        "price": 10.99,
-        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-        "category": "jewelery",
-        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-        "rating": {
-            "rate": 1.9,
-            "count": 100
-        }
-    },
-    {
-        "id": 9,
-        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-        "price": 64,
-        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user\u2019s hardware configuration and operating system",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-        "rating": {
-            "rate": 3.3,
-            "count": 203
-        }
-    },
-    {
-        "id": 10,
-        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-        "price": 109,
-        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5\u201D hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 470
-        }
-    },
-    {
-        "id": 11,
-        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-        "price": 109,
-        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-        "rating": {
-            "rate": 4.8,
-            "count": 319
-        }
-    },
-    {
-        "id": 12,
-        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-        "price": 114,
-        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 4.8,
-            "count": 400
-        }
-    },
-    {
-        "id": 13,
-        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-        "price": 599,
-        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 250
-        }
-    },
-    {
-        "id": 14,
-        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) \u2013 Super Ultrawide Screen QLED ",
-        "price": 999.99,
-        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-        "rating": {
-            "rate": 2.2,
-            "count": 140
-        }
-    },
-    {
-        "id": 15,
-        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-        "price": 56.99,
-        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 2.6,
-            "count": 235
-        }
-    },
-    {
-        "id": 16,
-        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-        "price": 29.95,
-        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 2.9,
-            "count": 340
-        }
-    },
-    {
-        "id": 17,
-        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-        "price": 39.99,
-        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-        "rating": {
-            "rate": 3.8,
-            "count": 679
-        }
-    },
-    {
-        "id": 18,
-        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-        "price": 9.85,
-        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-        "rating": {
-            "rate": 4.7,
-            "count": 130
-        }
-    },
-    {
-        "id": 19,
-        "title": "Opna Women's Short Sleeve Moisture",
-        "price": 7.95,
-        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-        "rating": {
-            "rate": 4.5,
-            "count": 146
-        }
-    },
-    {
-        "id": 20,
-        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-        "price": 12.99,
-        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
-        "category": "women's clothing",
-        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-        "rating": {
-            "rate": 3.6,
-            "count": 145
-        }
-    }
-];
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Products":"1s9w8","./App.css":"7g3a6","react-redux":"62sf7","./Components/Header":"l4D8n","react-router-dom":"9xmpe","./store/slices/productslist":"NcjOz","./store/slices/scripts":"t2gdX"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27589,7 +27342,145 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"1s9w8":[function(require,module,exports) {
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("7422ead32dcc1e6b");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports;
+                // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+                // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        var typeID = id + " %exports% " + key;
+        Refresh.register(exportValue, typeID);
+    }
+}
+
+},{"7422ead32dcc1e6b":"786KC"}],"1s9w8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0ab6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27731,7 +27622,7 @@ $RefreshReg$(_c, "Products");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"62sf7","../store/slices/cartSlices":"4Mi0S","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"62sf7":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-redux":"62sf7","../store/slices/cartSlices":"4Mi0S","react-router-dom":"9xmpe"}],"62sf7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Provider", ()=>Provider_default);
@@ -28919,7 +28810,1101 @@ console.dir(cartAddItem) //this is code without IMMER
  //  }
 ;
 
-},{"@reduxjs/toolkit":"fuua8","immer":"gxfm0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuua8":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","immer":"gxfm0","@reduxjs/toolkit":"fuua8"}],"gxfm0":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Immer", ()=>Immer2);
+parcelHelpers.export(exports, "applyPatches", ()=>applyPatches);
+parcelHelpers.export(exports, "castDraft", ()=>castDraft);
+parcelHelpers.export(exports, "castImmutable", ()=>castImmutable);
+parcelHelpers.export(exports, "createDraft", ()=>createDraft);
+parcelHelpers.export(exports, "current", ()=>current);
+parcelHelpers.export(exports, "enableMapSet", ()=>enableMapSet);
+parcelHelpers.export(exports, "enablePatches", ()=>enablePatches);
+parcelHelpers.export(exports, "finishDraft", ()=>finishDraft);
+parcelHelpers.export(exports, "freeze", ()=>freeze);
+parcelHelpers.export(exports, "immerable", ()=>DRAFTABLE);
+parcelHelpers.export(exports, "isDraft", ()=>isDraft);
+parcelHelpers.export(exports, "isDraftable", ()=>isDraftable);
+parcelHelpers.export(exports, "nothing", ()=>NOTHING);
+parcelHelpers.export(exports, "original", ()=>original);
+parcelHelpers.export(exports, "produce", ()=>produce);
+parcelHelpers.export(exports, "produceWithPatches", ()=>produceWithPatches);
+parcelHelpers.export(exports, "setAutoFreeze", ()=>setAutoFreeze);
+parcelHelpers.export(exports, "setUseStrictShallowCopy", ()=>setUseStrictShallowCopy);
+var __defProp = Object.defineProperty;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value)=>key in obj ? __defProp(obj, key, {
+        enumerable: true,
+        configurable: true,
+        writable: true,
+        value
+    }) : obj[key] = value;
+var __spreadValues = (a, b)=>{
+    for(var prop in b || (b = {}))if (__hasOwnProp.call(b, prop)) __defNormalProp(a, prop, b[prop]);
+    if (__getOwnPropSymbols) {
+        for (var prop of __getOwnPropSymbols(b))if (__propIsEnum.call(b, prop)) __defNormalProp(a, prop, b[prop]);
+    }
+    return a;
+};
+// src/utils/env.ts
+var NOTHING = Symbol.for("immer-nothing");
+var DRAFTABLE = Symbol.for("immer-draftable");
+var DRAFT_STATE = Symbol.for("immer-state");
+// src/utils/errors.ts
+var errors = [
+    // All error codes, starting by 0:
+    function(plugin) {
+        return `The plugin for '${plugin}' has not been loaded into Immer. To enable the plugin, import and call \`enable${plugin}()\` when initializing your application.`;
+    },
+    function(thing) {
+        return `produce can only be called on things that are draftable: plain objects, arrays, Map, Set or classes that are marked with '[immerable]: true'. Got '${thing}'`;
+    },
+    "This object has been frozen and should not be mutated",
+    function(data) {
+        return "Cannot use a proxy that has been revoked. Did you pass an object from inside an immer function to an async process? " + data;
+    },
+    "An immer producer returned a new value *and* modified its draft. Either return a new value *or* modify the draft.",
+    "Immer forbids circular references",
+    "The first or second argument to `produce` must be a function",
+    "The third argument to `produce` must be a function or undefined",
+    "First argument to `createDraft` must be a plain object, an array, or an immerable object",
+    "First argument to `finishDraft` must be a draft returned by `createDraft`",
+    function(thing) {
+        return `'current' expects a draft, got: ${thing}`;
+    },
+    "Object.defineProperty() cannot be used on an Immer draft",
+    "Object.setPrototypeOf() cannot be used on an Immer draft",
+    "Immer only supports deleting array indices",
+    "Immer only supports setting array indices and the 'length' property",
+    function(thing) {
+        return `'original' expects a draft, got: ${thing}`;
+    }
+];
+function die(error, ...args) {
+    {
+        const e = errors[error];
+        const msg = typeof e === "function" ? e.apply(null, args) : e;
+        throw new Error(`[Immer] ${msg}`);
+    }
+    throw new Error(`[Immer] minified error nr: ${error}. Full error at: https://bit.ly/3cXEKWf`);
+}
+// src/utils/common.ts
+var getPrototypeOf = Object.getPrototypeOf;
+function isDraft(value) {
+    return !!value && !!value[DRAFT_STATE];
+}
+function isDraftable(value) {
+    var _a;
+    if (!value) return false;
+    return isPlainObject(value) || Array.isArray(value) || !!value[DRAFTABLE] || !!((_a = value.constructor) == null ? void 0 : _a[DRAFTABLE]) || isMap(value) || isSet(value);
+}
+var objectCtorString = Object.prototype.constructor.toString();
+function isPlainObject(value) {
+    if (!value || typeof value !== "object") return false;
+    const proto = getPrototypeOf(value);
+    if (proto === null) return true;
+    const Ctor = Object.hasOwnProperty.call(proto, "constructor") && proto.constructor;
+    if (Ctor === Object) return true;
+    return typeof Ctor == "function" && Function.toString.call(Ctor) === objectCtorString;
+}
+function original(value) {
+    if (!isDraft(value)) die(15, value);
+    return value[DRAFT_STATE].base_;
+}
+function each(obj, iter) {
+    if (getArchtype(obj) === 0 /* Object */ ) Reflect.ownKeys(obj).forEach((key)=>{
+        iter(key, obj[key], obj);
+    });
+    else obj.forEach((entry, index)=>iter(index, entry, obj));
+}
+function getArchtype(thing) {
+    const state = thing[DRAFT_STATE];
+    return state ? state.type_ : Array.isArray(thing) ? 1 /* Array */  : isMap(thing) ? 2 /* Map */  : isSet(thing) ? 3 /* Set */  : 0 /* Object */ ;
+}
+function has(thing, prop) {
+    return getArchtype(thing) === 2 /* Map */  ? thing.has(prop) : Object.prototype.hasOwnProperty.call(thing, prop);
+}
+function get(thing, prop) {
+    return getArchtype(thing) === 2 /* Map */  ? thing.get(prop) : thing[prop];
+}
+function set(thing, propOrOldValue, value) {
+    const t = getArchtype(thing);
+    if (t === 2 /* Map */ ) thing.set(propOrOldValue, value);
+    else if (t === 3 /* Set */ ) thing.add(value);
+    else thing[propOrOldValue] = value;
+}
+function is(x, y) {
+    if (x === y) return x !== 0 || 1 / x === 1 / y;
+    else return x !== x && y !== y;
+}
+function isMap(target) {
+    return target instanceof Map;
+}
+function isSet(target) {
+    return target instanceof Set;
+}
+function latest(state) {
+    return state.copy_ || state.base_;
+}
+function shallowCopy(base, strict) {
+    if (isMap(base)) return new Map(base);
+    if (isSet(base)) return new Set(base);
+    if (Array.isArray(base)) return Array.prototype.slice.call(base);
+    const isPlain = isPlainObject(base);
+    if (strict === true || strict === "class_only" && !isPlain) {
+        const descriptors = Object.getOwnPropertyDescriptors(base);
+        delete descriptors[DRAFT_STATE];
+        let keys = Reflect.ownKeys(descriptors);
+        for(let i = 0; i < keys.length; i++){
+            const key = keys[i];
+            const desc = descriptors[key];
+            if (desc.writable === false) {
+                desc.writable = true;
+                desc.configurable = true;
+            }
+            if (desc.get || desc.set) descriptors[key] = {
+                configurable: true,
+                writable: true,
+                // could live with !!desc.set as well here...
+                enumerable: desc.enumerable,
+                value: base[key]
+            };
+        }
+        return Object.create(getPrototypeOf(base), descriptors);
+    } else {
+        const proto = getPrototypeOf(base);
+        if (proto !== null && isPlain) return __spreadValues({}, base);
+        const obj = Object.create(proto);
+        return Object.assign(obj, base);
+    }
+}
+function freeze(obj, deep = false) {
+    if (isFrozen(obj) || isDraft(obj) || !isDraftable(obj)) return obj;
+    if (getArchtype(obj) > 1) obj.set = obj.add = obj.clear = obj.delete = dontMutateFrozenCollections;
+    Object.freeze(obj);
+    if (deep) Object.entries(obj).forEach(([key, value])=>freeze(value, true));
+    return obj;
+}
+function dontMutateFrozenCollections() {
+    die(2);
+}
+function isFrozen(obj) {
+    return Object.isFrozen(obj);
+}
+// src/utils/plugins.ts
+var plugins = {};
+function getPlugin(pluginKey) {
+    const plugin = plugins[pluginKey];
+    if (!plugin) die(0, pluginKey);
+    return plugin;
+}
+function loadPlugin(pluginKey, implementation) {
+    if (!plugins[pluginKey]) plugins[pluginKey] = implementation;
+}
+// src/core/scope.ts
+var currentScope;
+function getCurrentScope() {
+    return currentScope;
+}
+function createScope(parent_, immer_) {
+    return {
+        drafts_: [],
+        parent_,
+        immer_,
+        // Whenever the modified draft contains a draft from another scope, we
+        // need to prevent auto-freezing so the unowned draft can be finalized.
+        canAutoFreeze_: true,
+        unfinalizedDrafts_: 0
+    };
+}
+function usePatchesInScope(scope, patchListener) {
+    if (patchListener) {
+        getPlugin("Patches");
+        scope.patches_ = [];
+        scope.inversePatches_ = [];
+        scope.patchListener_ = patchListener;
+    }
+}
+function revokeScope(scope) {
+    leaveScope(scope);
+    scope.drafts_.forEach(revokeDraft);
+    scope.drafts_ = null;
+}
+function leaveScope(scope) {
+    if (scope === currentScope) currentScope = scope.parent_;
+}
+function enterScope(immer2) {
+    return currentScope = createScope(currentScope, immer2);
+}
+function revokeDraft(draft) {
+    const state = draft[DRAFT_STATE];
+    if (state.type_ === 0 /* Object */  || state.type_ === 1 /* Array */ ) state.revoke_();
+    else state.revoked_ = true;
+}
+// src/core/finalize.ts
+function processResult(result, scope) {
+    scope.unfinalizedDrafts_ = scope.drafts_.length;
+    const baseDraft = scope.drafts_[0];
+    const isReplaced = result !== void 0 && result !== baseDraft;
+    if (isReplaced) {
+        if (baseDraft[DRAFT_STATE].modified_) {
+            revokeScope(scope);
+            die(4);
+        }
+        if (isDraftable(result)) {
+            result = finalize(scope, result);
+            if (!scope.parent_) maybeFreeze(scope, result);
+        }
+        if (scope.patches_) getPlugin("Patches").generateReplacementPatches_(baseDraft[DRAFT_STATE].base_, result, scope.patches_, scope.inversePatches_);
+    } else result = finalize(scope, baseDraft, []);
+    revokeScope(scope);
+    if (scope.patches_) scope.patchListener_(scope.patches_, scope.inversePatches_);
+    return result !== NOTHING ? result : void 0;
+}
+function finalize(rootScope, value, path) {
+    if (isFrozen(value)) return value;
+    const state = value[DRAFT_STATE];
+    if (!state) {
+        each(value, (key, childValue)=>finalizeProperty(rootScope, state, value, key, childValue, path));
+        return value;
+    }
+    if (state.scope_ !== rootScope) return value;
+    if (!state.modified_) {
+        maybeFreeze(rootScope, state.base_, true);
+        return state.base_;
+    }
+    if (!state.finalized_) {
+        state.finalized_ = true;
+        state.scope_.unfinalizedDrafts_--;
+        const result = state.copy_;
+        let resultEach = result;
+        let isSet2 = false;
+        if (state.type_ === 3 /* Set */ ) {
+            resultEach = new Set(result);
+            result.clear();
+            isSet2 = true;
+        }
+        each(resultEach, (key, childValue)=>finalizeProperty(rootScope, state, result, key, childValue, path, isSet2));
+        maybeFreeze(rootScope, result, false);
+        if (path && rootScope.patches_) getPlugin("Patches").generatePatches_(state, path, rootScope.patches_, rootScope.inversePatches_);
+    }
+    return state.copy_;
+}
+function finalizeProperty(rootScope, parentState, targetObject, prop, childValue, rootPath, targetIsSet) {
+    if (childValue === targetObject) die(5);
+    if (isDraft(childValue)) {
+        const path = rootPath && parentState && parentState.type_ !== 3 /* Set */  && // Set objects are atomic since they have no keys.
+        !has(parentState.assigned_, prop) ? rootPath.concat(prop) : void 0;
+        const res = finalize(rootScope, childValue, path);
+        set(targetObject, prop, res);
+        if (isDraft(res)) rootScope.canAutoFreeze_ = false;
+        else return;
+    } else if (targetIsSet) targetObject.add(childValue);
+    if (isDraftable(childValue) && !isFrozen(childValue)) {
+        if (!rootScope.immer_.autoFreeze_ && rootScope.unfinalizedDrafts_ < 1) return;
+        finalize(rootScope, childValue);
+        if ((!parentState || !parentState.scope_.parent_) && typeof prop !== "symbol" && Object.prototype.propertyIsEnumerable.call(targetObject, prop)) maybeFreeze(rootScope, childValue);
+    }
+}
+function maybeFreeze(scope, value, deep = false) {
+    if (!scope.parent_ && scope.immer_.autoFreeze_ && scope.canAutoFreeze_) freeze(value, deep);
+}
+// src/core/proxy.ts
+function createProxyProxy(base, parent) {
+    const isArray = Array.isArray(base);
+    const state = {
+        type_: isArray ? 1 /* Array */  : 0 /* Object */ ,
+        // Track which produce call this is associated with.
+        scope_: parent ? parent.scope_ : getCurrentScope(),
+        // True for both shallow and deep changes.
+        modified_: false,
+        // Used during finalization.
+        finalized_: false,
+        // Track which properties have been assigned (true) or deleted (false).
+        assigned_: {},
+        // The parent draft state.
+        parent_: parent,
+        // The base state.
+        base_: base,
+        // The base proxy.
+        draft_: null,
+        // set below
+        // The base copy with any updated values.
+        copy_: null,
+        // Called by the `produce` function.
+        revoke_: null,
+        isManual_: false
+    };
+    let target = state;
+    let traps = objectTraps;
+    if (isArray) {
+        target = [
+            state
+        ];
+        traps = arrayTraps;
+    }
+    const { revoke, proxy } = Proxy.revocable(target, traps);
+    state.draft_ = proxy;
+    state.revoke_ = revoke;
+    return proxy;
+}
+var objectTraps = {
+    get (state, prop) {
+        if (prop === DRAFT_STATE) return state;
+        const source = latest(state);
+        if (!has(source, prop)) return readPropFromProto(state, source, prop);
+        const value = source[prop];
+        if (state.finalized_ || !isDraftable(value)) return value;
+        if (value === peek(state.base_, prop)) {
+            prepareCopy(state);
+            return state.copy_[prop] = createProxy(value, state);
+        }
+        return value;
+    },
+    has (state, prop) {
+        return prop in latest(state);
+    },
+    ownKeys (state) {
+        return Reflect.ownKeys(latest(state));
+    },
+    set (state, prop, value) {
+        const desc = getDescriptorFromProto(latest(state), prop);
+        if (desc == null ? void 0 : desc.set) {
+            desc.set.call(state.draft_, value);
+            return true;
+        }
+        if (!state.modified_) {
+            const current2 = peek(latest(state), prop);
+            const currentState = current2 == null ? void 0 : current2[DRAFT_STATE];
+            if (currentState && currentState.base_ === value) {
+                state.copy_[prop] = value;
+                state.assigned_[prop] = false;
+                return true;
+            }
+            if (is(value, current2) && (value !== void 0 || has(state.base_, prop))) return true;
+            prepareCopy(state);
+            markChanged(state);
+        }
+        if (state.copy_[prop] === value && // special case: handle new props with value 'undefined'
+        (value !== void 0 || prop in state.copy_) || // special case: NaN
+        Number.isNaN(value) && Number.isNaN(state.copy_[prop])) return true;
+        state.copy_[prop] = value;
+        state.assigned_[prop] = true;
+        return true;
+    },
+    deleteProperty (state, prop) {
+        if (peek(state.base_, prop) !== void 0 || prop in state.base_) {
+            state.assigned_[prop] = false;
+            prepareCopy(state);
+            markChanged(state);
+        } else delete state.assigned_[prop];
+        if (state.copy_) delete state.copy_[prop];
+        return true;
+    },
+    // Note: We never coerce `desc.value` into an Immer draft, because we can't make
+    // the same guarantee in ES5 mode.
+    getOwnPropertyDescriptor (state, prop) {
+        const owner = latest(state);
+        const desc = Reflect.getOwnPropertyDescriptor(owner, prop);
+        if (!desc) return desc;
+        return {
+            writable: true,
+            configurable: state.type_ !== 1 /* Array */  || prop !== "length",
+            enumerable: desc.enumerable,
+            value: owner[prop]
+        };
+    },
+    defineProperty () {
+        die(11);
+    },
+    getPrototypeOf (state) {
+        return getPrototypeOf(state.base_);
+    },
+    setPrototypeOf () {
+        die(12);
+    }
+};
+var arrayTraps = {};
+each(objectTraps, (key, fn)=>{
+    arrayTraps[key] = function() {
+        arguments[0] = arguments[0][0];
+        return fn.apply(this, arguments);
+    };
+});
+arrayTraps.deleteProperty = function(state, prop) {
+    if (isNaN(parseInt(prop))) die(13);
+    return arrayTraps.set.call(this, state, prop, void 0);
+};
+arrayTraps.set = function(state, prop, value) {
+    if (prop !== "length" && isNaN(parseInt(prop))) die(14);
+    return objectTraps.set.call(this, state[0], prop, value, state[0]);
+};
+function peek(draft, prop) {
+    const state = draft[DRAFT_STATE];
+    const source = state ? latest(state) : draft;
+    return source[prop];
+}
+function readPropFromProto(state, source, prop) {
+    var _a;
+    const desc = getDescriptorFromProto(source, prop);
+    return desc ? `value` in desc ? desc.value : // This is a very special case, if the prop is a getter defined by the
+    // prototype, we should invoke it with the draft as context!
+    (_a = desc.get) == null ? void 0 : _a.call(state.draft_) : void 0;
+}
+function getDescriptorFromProto(source, prop) {
+    if (!(prop in source)) return void 0;
+    let proto = getPrototypeOf(source);
+    while(proto){
+        const desc = Object.getOwnPropertyDescriptor(proto, prop);
+        if (desc) return desc;
+        proto = getPrototypeOf(proto);
+    }
+    return void 0;
+}
+function markChanged(state) {
+    if (!state.modified_) {
+        state.modified_ = true;
+        if (state.parent_) markChanged(state.parent_);
+    }
+}
+function prepareCopy(state) {
+    if (!state.copy_) state.copy_ = shallowCopy(state.base_, state.scope_.immer_.useStrictShallowCopy_);
+}
+// src/core/immerClass.ts
+var Immer2 = class {
+    constructor(config){
+        this.autoFreeze_ = true;
+        this.useStrictShallowCopy_ = false;
+        /**
+     * The `produce` function takes a value and a "recipe function" (whose
+     * return value often depends on the base state). The recipe function is
+     * free to mutate its first argument however it wants. All mutations are
+     * only ever applied to a __copy__ of the base state.
+     *
+     * Pass only a function to create a "curried producer" which relieves you
+     * from passing the recipe function every time.
+     *
+     * Only plain objects and arrays are made mutable. All other objects are
+     * considered uncopyable.
+     *
+     * Note: This function is __bound__ to its `Immer` instance.
+     *
+     * @param {any} base - the initial state
+     * @param {Function} recipe - function that receives a proxy of the base state as first argument and which can be freely modified
+     * @param {Function} patchListener - optional function that will be called with all the patches produced here
+     * @returns {any} a new state, or the initial state if nothing was modified
+     */ this.produce = (base, recipe, patchListener)=>{
+            if (typeof base === "function" && typeof recipe !== "function") {
+                const defaultBase = recipe;
+                recipe = base;
+                const self = this;
+                return function curriedProduce(base2 = defaultBase, ...args) {
+                    return self.produce(base2, (draft)=>recipe.call(this, draft, ...args));
+                };
+            }
+            if (typeof recipe !== "function") die(6);
+            if (patchListener !== void 0 && typeof patchListener !== "function") die(7);
+            let result;
+            if (isDraftable(base)) {
+                const scope = enterScope(this);
+                const proxy = createProxy(base, void 0);
+                let hasError = true;
+                try {
+                    result = recipe(proxy);
+                    hasError = false;
+                } finally{
+                    if (hasError) revokeScope(scope);
+                    else leaveScope(scope);
+                }
+                usePatchesInScope(scope, patchListener);
+                return processResult(result, scope);
+            } else if (!base || typeof base !== "object") {
+                result = recipe(base);
+                if (result === void 0) result = base;
+                if (result === NOTHING) result = void 0;
+                if (this.autoFreeze_) freeze(result, true);
+                if (patchListener) {
+                    const p = [];
+                    const ip = [];
+                    getPlugin("Patches").generateReplacementPatches_(base, result, p, ip);
+                    patchListener(p, ip);
+                }
+                return result;
+            } else die(1, base);
+        };
+        this.produceWithPatches = (base, recipe)=>{
+            if (typeof base === "function") return (state, ...args)=>this.produceWithPatches(state, (draft)=>base(draft, ...args));
+            let patches, inversePatches;
+            const result = this.produce(base, recipe, (p, ip)=>{
+                patches = p;
+                inversePatches = ip;
+            });
+            return [
+                result,
+                patches,
+                inversePatches
+            ];
+        };
+        if (typeof (config == null ? void 0 : config.autoFreeze) === "boolean") this.setAutoFreeze(config.autoFreeze);
+        if (typeof (config == null ? void 0 : config.useStrictShallowCopy) === "boolean") this.setUseStrictShallowCopy(config.useStrictShallowCopy);
+    }
+    createDraft(base) {
+        if (!isDraftable(base)) die(8);
+        if (isDraft(base)) base = current(base);
+        const scope = enterScope(this);
+        const proxy = createProxy(base, void 0);
+        proxy[DRAFT_STATE].isManual_ = true;
+        leaveScope(scope);
+        return proxy;
+    }
+    finishDraft(draft, patchListener) {
+        const state = draft && draft[DRAFT_STATE];
+        if (!state || !state.isManual_) die(9);
+        const { scope_: scope } = state;
+        usePatchesInScope(scope, patchListener);
+        return processResult(void 0, scope);
+    }
+    /**
+   * Pass true to automatically freeze all copies created by Immer.
+   *
+   * By default, auto-freezing is enabled.
+   */ setAutoFreeze(value) {
+        this.autoFreeze_ = value;
+    }
+    /**
+   * Pass true to enable strict shallow copy.
+   *
+   * By default, immer does not copy the object descriptors such as getter, setter and non-enumrable properties.
+   */ setUseStrictShallowCopy(value) {
+        this.useStrictShallowCopy_ = value;
+    }
+    applyPatches(base, patches) {
+        let i;
+        for(i = patches.length - 1; i >= 0; i--){
+            const patch = patches[i];
+            if (patch.path.length === 0 && patch.op === "replace") {
+                base = patch.value;
+                break;
+            }
+        }
+        if (i > -1) patches = patches.slice(i + 1);
+        const applyPatchesImpl = getPlugin("Patches").applyPatches_;
+        if (isDraft(base)) return applyPatchesImpl(base, patches);
+        return this.produce(base, (draft)=>applyPatchesImpl(draft, patches));
+    }
+};
+function createProxy(value, parent) {
+    const draft = isMap(value) ? getPlugin("MapSet").proxyMap_(value, parent) : isSet(value) ? getPlugin("MapSet").proxySet_(value, parent) : createProxyProxy(value, parent);
+    const scope = parent ? parent.scope_ : getCurrentScope();
+    scope.drafts_.push(draft);
+    return draft;
+}
+// src/core/current.ts
+function current(value) {
+    if (!isDraft(value)) die(10, value);
+    return currentImpl(value);
+}
+function currentImpl(value) {
+    if (!isDraftable(value) || isFrozen(value)) return value;
+    const state = value[DRAFT_STATE];
+    let copy;
+    if (state) {
+        if (!state.modified_) return state.base_;
+        state.finalized_ = true;
+        copy = shallowCopy(value, state.scope_.immer_.useStrictShallowCopy_);
+    } else copy = shallowCopy(value, true);
+    each(copy, (key, childValue)=>{
+        set(copy, key, currentImpl(childValue));
+    });
+    if (state) state.finalized_ = false;
+    return copy;
+}
+// src/plugins/patches.ts
+function enablePatches() {
+    const errorOffset = 16;
+    errors.push('Sets cannot have "replace" patches.', function(op) {
+        return "Unsupported patch operation: " + op;
+    }, function(path) {
+        return "Cannot apply patch, path doesn't resolve: " + path;
+    }, "Patching reserved attributes like __proto__, prototype and constructor is not allowed");
+    const REPLACE = "replace";
+    const ADD = "add";
+    const REMOVE = "remove";
+    function generatePatches_(state, basePath, patches, inversePatches) {
+        switch(state.type_){
+            case 0 /* Object */ :
+            case 2 /* Map */ :
+                return generatePatchesFromAssigned(state, basePath, patches, inversePatches);
+            case 1 /* Array */ :
+                return generateArrayPatches(state, basePath, patches, inversePatches);
+            case 3 /* Set */ :
+                return generateSetPatches(state, basePath, patches, inversePatches);
+        }
+    }
+    function generateArrayPatches(state, basePath, patches, inversePatches) {
+        let { base_, assigned_ } = state;
+        let copy_ = state.copy_;
+        if (copy_.length < base_.length) {
+            [base_, copy_] = [
+                copy_,
+                base_
+            ];
+            [patches, inversePatches] = [
+                inversePatches,
+                patches
+            ];
+        }
+        for(let i = 0; i < base_.length; i++)if (assigned_[i] && copy_[i] !== base_[i]) {
+            const path = basePath.concat([
+                i
+            ]);
+            patches.push({
+                op: REPLACE,
+                path,
+                // Need to maybe clone it, as it can in fact be the original value
+                // due to the base/copy inversion at the start of this function
+                value: clonePatchValueIfNeeded(copy_[i])
+            });
+            inversePatches.push({
+                op: REPLACE,
+                path,
+                value: clonePatchValueIfNeeded(base_[i])
+            });
+        }
+        for(let i = base_.length; i < copy_.length; i++){
+            const path = basePath.concat([
+                i
+            ]);
+            patches.push({
+                op: ADD,
+                path,
+                // Need to maybe clone it, as it can in fact be the original value
+                // due to the base/copy inversion at the start of this function
+                value: clonePatchValueIfNeeded(copy_[i])
+            });
+        }
+        for(let i = copy_.length - 1; base_.length <= i; --i){
+            const path = basePath.concat([
+                i
+            ]);
+            inversePatches.push({
+                op: REMOVE,
+                path
+            });
+        }
+    }
+    function generatePatchesFromAssigned(state, basePath, patches, inversePatches) {
+        const { base_, copy_ } = state;
+        each(state.assigned_, (key, assignedValue)=>{
+            const origValue = get(base_, key);
+            const value = get(copy_, key);
+            const op = !assignedValue ? REMOVE : has(base_, key) ? REPLACE : ADD;
+            if (origValue === value && op === REPLACE) return;
+            const path = basePath.concat(key);
+            patches.push(op === REMOVE ? {
+                op,
+                path
+            } : {
+                op,
+                path,
+                value
+            });
+            inversePatches.push(op === ADD ? {
+                op: REMOVE,
+                path
+            } : op === REMOVE ? {
+                op: ADD,
+                path,
+                value: clonePatchValueIfNeeded(origValue)
+            } : {
+                op: REPLACE,
+                path,
+                value: clonePatchValueIfNeeded(origValue)
+            });
+        });
+    }
+    function generateSetPatches(state, basePath, patches, inversePatches) {
+        let { base_, copy_ } = state;
+        let i = 0;
+        base_.forEach((value)=>{
+            if (!copy_.has(value)) {
+                const path = basePath.concat([
+                    i
+                ]);
+                patches.push({
+                    op: REMOVE,
+                    path,
+                    value
+                });
+                inversePatches.unshift({
+                    op: ADD,
+                    path,
+                    value
+                });
+            }
+            i++;
+        });
+        i = 0;
+        copy_.forEach((value)=>{
+            if (!base_.has(value)) {
+                const path = basePath.concat([
+                    i
+                ]);
+                patches.push({
+                    op: ADD,
+                    path,
+                    value
+                });
+                inversePatches.unshift({
+                    op: REMOVE,
+                    path,
+                    value
+                });
+            }
+            i++;
+        });
+    }
+    function generateReplacementPatches_(baseValue, replacement, patches, inversePatches) {
+        patches.push({
+            op: REPLACE,
+            path: [],
+            value: replacement === NOTHING ? void 0 : replacement
+        });
+        inversePatches.push({
+            op: REPLACE,
+            path: [],
+            value: baseValue
+        });
+    }
+    function applyPatches_(draft, patches) {
+        patches.forEach((patch)=>{
+            const { path, op } = patch;
+            let base = draft;
+            for(let i = 0; i < path.length - 1; i++){
+                const parentType = getArchtype(base);
+                let p = path[i];
+                if (typeof p !== "string" && typeof p !== "number") p = "" + p;
+                if ((parentType === 0 /* Object */  || parentType === 1 /* Array */ ) && (p === "__proto__" || p === "constructor")) die(errorOffset + 3);
+                if (typeof base === "function" && p === "prototype") die(errorOffset + 3);
+                base = get(base, p);
+                if (typeof base !== "object") die(errorOffset + 2, path.join("/"));
+            }
+            const type = getArchtype(base);
+            const value = deepClonePatchValue(patch.value);
+            const key = path[path.length - 1];
+            switch(op){
+                case REPLACE:
+                    switch(type){
+                        case 2 /* Map */ :
+                            return base.set(key, value);
+                        case 3 /* Set */ :
+                            die(errorOffset);
+                        default:
+                            return base[key] = value;
+                    }
+                case ADD:
+                    switch(type){
+                        case 1 /* Array */ :
+                            return key === "-" ? base.push(value) : base.splice(key, 0, value);
+                        case 2 /* Map */ :
+                            return base.set(key, value);
+                        case 3 /* Set */ :
+                            return base.add(value);
+                        default:
+                            return base[key] = value;
+                    }
+                case REMOVE:
+                    switch(type){
+                        case 1 /* Array */ :
+                            return base.splice(key, 1);
+                        case 2 /* Map */ :
+                            return base.delete(key);
+                        case 3 /* Set */ :
+                            return base.delete(patch.value);
+                        default:
+                            return delete base[key];
+                    }
+                default:
+                    die(errorOffset + 1, op);
+            }
+        });
+        return draft;
+    }
+    function deepClonePatchValue(obj) {
+        if (!isDraftable(obj)) return obj;
+        if (Array.isArray(obj)) return obj.map(deepClonePatchValue);
+        if (isMap(obj)) return new Map(Array.from(obj.entries()).map(([k, v])=>[
+                k,
+                deepClonePatchValue(v)
+            ]));
+        if (isSet(obj)) return new Set(Array.from(obj).map(deepClonePatchValue));
+        const cloned = Object.create(getPrototypeOf(obj));
+        for(const key in obj)cloned[key] = deepClonePatchValue(obj[key]);
+        if (has(obj, DRAFTABLE)) cloned[DRAFTABLE] = obj[DRAFTABLE];
+        return cloned;
+    }
+    function clonePatchValueIfNeeded(obj) {
+        if (isDraft(obj)) return deepClonePatchValue(obj);
+        else return obj;
+    }
+    loadPlugin("Patches", {
+        applyPatches_,
+        generatePatches_,
+        generateReplacementPatches_
+    });
+}
+// src/plugins/mapset.ts
+function enableMapSet() {
+    class DraftMap extends Map {
+        constructor(target, parent){
+            super();
+            this[DRAFT_STATE] = {
+                type_: 2 /* Map */ ,
+                parent_: parent,
+                scope_: parent ? parent.scope_ : getCurrentScope(),
+                modified_: false,
+                finalized_: false,
+                copy_: void 0,
+                assigned_: void 0,
+                base_: target,
+                draft_: this,
+                isManual_: false,
+                revoked_: false
+            };
+        }
+        get size() {
+            return latest(this[DRAFT_STATE]).size;
+        }
+        has(key) {
+            return latest(this[DRAFT_STATE]).has(key);
+        }
+        set(key, value) {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            if (!latest(state).has(key) || latest(state).get(key) !== value) {
+                prepareMapCopy(state);
+                markChanged(state);
+                state.assigned_.set(key, true);
+                state.copy_.set(key, value);
+                state.assigned_.set(key, true);
+            }
+            return this;
+        }
+        delete(key) {
+            if (!this.has(key)) return false;
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            prepareMapCopy(state);
+            markChanged(state);
+            if (state.base_.has(key)) state.assigned_.set(key, false);
+            else state.assigned_.delete(key);
+            state.copy_.delete(key);
+            return true;
+        }
+        clear() {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            if (latest(state).size) {
+                prepareMapCopy(state);
+                markChanged(state);
+                state.assigned_ = /* @__PURE__ */ new Map();
+                each(state.base_, (key)=>{
+                    state.assigned_.set(key, false);
+                });
+                state.copy_.clear();
+            }
+        }
+        forEach(cb, thisArg) {
+            const state = this[DRAFT_STATE];
+            latest(state).forEach((_value, key, _map)=>{
+                cb.call(thisArg, this.get(key), key, this);
+            });
+        }
+        get(key) {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            const value = latest(state).get(key);
+            if (state.finalized_ || !isDraftable(value)) return value;
+            if (value !== state.base_.get(key)) return value;
+            const draft = createProxy(value, state);
+            prepareMapCopy(state);
+            state.copy_.set(key, draft);
+            return draft;
+        }
+        keys() {
+            return latest(this[DRAFT_STATE]).keys();
+        }
+        values() {
+            const iterator = this.keys();
+            return {
+                [Symbol.iterator]: ()=>this.values(),
+                next: ()=>{
+                    const r = iterator.next();
+                    if (r.done) return r;
+                    const value = this.get(r.value);
+                    return {
+                        done: false,
+                        value
+                    };
+                }
+            };
+        }
+        entries() {
+            const iterator = this.keys();
+            return {
+                [Symbol.iterator]: ()=>this.entries(),
+                next: ()=>{
+                    const r = iterator.next();
+                    if (r.done) return r;
+                    const value = this.get(r.value);
+                    return {
+                        done: false,
+                        value: [
+                            r.value,
+                            value
+                        ]
+                    };
+                }
+            };
+        }
+        [(DRAFT_STATE, Symbol.iterator)]() {
+            return this.entries();
+        }
+    }
+    function proxyMap_(target, parent) {
+        return new DraftMap(target, parent);
+    }
+    function prepareMapCopy(state) {
+        if (!state.copy_) {
+            state.assigned_ = /* @__PURE__ */ new Map();
+            state.copy_ = new Map(state.base_);
+        }
+    }
+    class DraftSet extends Set {
+        constructor(target, parent){
+            super();
+            this[DRAFT_STATE] = {
+                type_: 3 /* Set */ ,
+                parent_: parent,
+                scope_: parent ? parent.scope_ : getCurrentScope(),
+                modified_: false,
+                finalized_: false,
+                copy_: void 0,
+                base_: target,
+                draft_: this,
+                drafts_: /* @__PURE__ */ new Map(),
+                revoked_: false,
+                isManual_: false
+            };
+        }
+        get size() {
+            return latest(this[DRAFT_STATE]).size;
+        }
+        has(value) {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            if (!state.copy_) return state.base_.has(value);
+            if (state.copy_.has(value)) return true;
+            if (state.drafts_.has(value) && state.copy_.has(state.drafts_.get(value))) return true;
+            return false;
+        }
+        add(value) {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            if (!this.has(value)) {
+                prepareSetCopy(state);
+                markChanged(state);
+                state.copy_.add(value);
+            }
+            return this;
+        }
+        delete(value) {
+            if (!this.has(value)) return false;
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            prepareSetCopy(state);
+            markChanged(state);
+            return state.copy_.delete(value) || (state.drafts_.has(value) ? state.copy_.delete(state.drafts_.get(value)) : /* istanbul ignore next */ false);
+        }
+        clear() {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            if (latest(state).size) {
+                prepareSetCopy(state);
+                markChanged(state);
+                state.copy_.clear();
+            }
+        }
+        values() {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            prepareSetCopy(state);
+            return state.copy_.values();
+        }
+        entries() {
+            const state = this[DRAFT_STATE];
+            assertUnrevoked(state);
+            prepareSetCopy(state);
+            return state.copy_.entries();
+        }
+        keys() {
+            return this.values();
+        }
+        [(DRAFT_STATE, Symbol.iterator)]() {
+            return this.values();
+        }
+        forEach(cb, thisArg) {
+            const iterator = this.values();
+            let result = iterator.next();
+            while(!result.done){
+                cb.call(thisArg, result.value, result.value, this);
+                result = iterator.next();
+            }
+        }
+    }
+    function proxySet_(target, parent) {
+        return new DraftSet(target, parent);
+    }
+    function prepareSetCopy(state) {
+        if (!state.copy_) {
+            state.copy_ = /* @__PURE__ */ new Set();
+            state.base_.forEach((value)=>{
+                if (isDraftable(value)) {
+                    const draft = createProxy(value, state);
+                    state.drafts_.set(value, draft);
+                    state.copy_.add(draft);
+                } else state.copy_.add(value);
+            });
+        }
+    }
+    function assertUnrevoked(state) {
+        if (state.revoked_) die(3, JSON.stringify(latest(state)));
+    }
+    loadPlugin("MapSet", {
+        proxyMap_,
+        proxySet_
+    });
+}
+// src/immer.ts
+var immer = new Immer2();
+var produce = immer.produce;
+var produceWithPatches = immer.produceWithPatches.bind(immer);
+var setAutoFreeze = immer.setAutoFreeze.bind(immer);
+var setUseStrictShallowCopy = immer.setUseStrictShallowCopy.bind(immer);
+var applyPatches = immer.applyPatches.bind(immer);
+var createDraft = immer.createDraft.bind(immer);
+var finishDraft = immer.finishDraft.bind(immer);
+function castDraft(value) {
+    return value;
+}
+function castImmutable(value) {
+    return value;
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuua8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ReducerType", ()=>ReducerType);
@@ -31131,1100 +32116,6 @@ function applyMiddleware(...middlewares) {
 // src/utils/isAction.ts
 function isAction(action) {
     return isPlainObject(action) && "type" in action && typeof action.type === "string";
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gxfm0":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Immer", ()=>Immer2);
-parcelHelpers.export(exports, "applyPatches", ()=>applyPatches);
-parcelHelpers.export(exports, "castDraft", ()=>castDraft);
-parcelHelpers.export(exports, "castImmutable", ()=>castImmutable);
-parcelHelpers.export(exports, "createDraft", ()=>createDraft);
-parcelHelpers.export(exports, "current", ()=>current);
-parcelHelpers.export(exports, "enableMapSet", ()=>enableMapSet);
-parcelHelpers.export(exports, "enablePatches", ()=>enablePatches);
-parcelHelpers.export(exports, "finishDraft", ()=>finishDraft);
-parcelHelpers.export(exports, "freeze", ()=>freeze);
-parcelHelpers.export(exports, "immerable", ()=>DRAFTABLE);
-parcelHelpers.export(exports, "isDraft", ()=>isDraft);
-parcelHelpers.export(exports, "isDraftable", ()=>isDraftable);
-parcelHelpers.export(exports, "nothing", ()=>NOTHING);
-parcelHelpers.export(exports, "original", ()=>original);
-parcelHelpers.export(exports, "produce", ()=>produce);
-parcelHelpers.export(exports, "produceWithPatches", ()=>produceWithPatches);
-parcelHelpers.export(exports, "setAutoFreeze", ()=>setAutoFreeze);
-parcelHelpers.export(exports, "setUseStrictShallowCopy", ()=>setUseStrictShallowCopy);
-var __defProp = Object.defineProperty;
-var __getOwnPropSymbols = Object.getOwnPropertySymbols;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __propIsEnum = Object.prototype.propertyIsEnumerable;
-var __defNormalProp = (obj, key, value)=>key in obj ? __defProp(obj, key, {
-        enumerable: true,
-        configurable: true,
-        writable: true,
-        value
-    }) : obj[key] = value;
-var __spreadValues = (a, b)=>{
-    for(var prop in b || (b = {}))if (__hasOwnProp.call(b, prop)) __defNormalProp(a, prop, b[prop]);
-    if (__getOwnPropSymbols) {
-        for (var prop of __getOwnPropSymbols(b))if (__propIsEnum.call(b, prop)) __defNormalProp(a, prop, b[prop]);
-    }
-    return a;
-};
-// src/utils/env.ts
-var NOTHING = Symbol.for("immer-nothing");
-var DRAFTABLE = Symbol.for("immer-draftable");
-var DRAFT_STATE = Symbol.for("immer-state");
-// src/utils/errors.ts
-var errors = [
-    // All error codes, starting by 0:
-    function(plugin) {
-        return `The plugin for '${plugin}' has not been loaded into Immer. To enable the plugin, import and call \`enable${plugin}()\` when initializing your application.`;
-    },
-    function(thing) {
-        return `produce can only be called on things that are draftable: plain objects, arrays, Map, Set or classes that are marked with '[immerable]: true'. Got '${thing}'`;
-    },
-    "This object has been frozen and should not be mutated",
-    function(data) {
-        return "Cannot use a proxy that has been revoked. Did you pass an object from inside an immer function to an async process? " + data;
-    },
-    "An immer producer returned a new value *and* modified its draft. Either return a new value *or* modify the draft.",
-    "Immer forbids circular references",
-    "The first or second argument to `produce` must be a function",
-    "The third argument to `produce` must be a function or undefined",
-    "First argument to `createDraft` must be a plain object, an array, or an immerable object",
-    "First argument to `finishDraft` must be a draft returned by `createDraft`",
-    function(thing) {
-        return `'current' expects a draft, got: ${thing}`;
-    },
-    "Object.defineProperty() cannot be used on an Immer draft",
-    "Object.setPrototypeOf() cannot be used on an Immer draft",
-    "Immer only supports deleting array indices",
-    "Immer only supports setting array indices and the 'length' property",
-    function(thing) {
-        return `'original' expects a draft, got: ${thing}`;
-    }
-];
-function die(error, ...args) {
-    {
-        const e = errors[error];
-        const msg = typeof e === "function" ? e.apply(null, args) : e;
-        throw new Error(`[Immer] ${msg}`);
-    }
-    throw new Error(`[Immer] minified error nr: ${error}. Full error at: https://bit.ly/3cXEKWf`);
-}
-// src/utils/common.ts
-var getPrototypeOf = Object.getPrototypeOf;
-function isDraft(value) {
-    return !!value && !!value[DRAFT_STATE];
-}
-function isDraftable(value) {
-    var _a;
-    if (!value) return false;
-    return isPlainObject(value) || Array.isArray(value) || !!value[DRAFTABLE] || !!((_a = value.constructor) == null ? void 0 : _a[DRAFTABLE]) || isMap(value) || isSet(value);
-}
-var objectCtorString = Object.prototype.constructor.toString();
-function isPlainObject(value) {
-    if (!value || typeof value !== "object") return false;
-    const proto = getPrototypeOf(value);
-    if (proto === null) return true;
-    const Ctor = Object.hasOwnProperty.call(proto, "constructor") && proto.constructor;
-    if (Ctor === Object) return true;
-    return typeof Ctor == "function" && Function.toString.call(Ctor) === objectCtorString;
-}
-function original(value) {
-    if (!isDraft(value)) die(15, value);
-    return value[DRAFT_STATE].base_;
-}
-function each(obj, iter) {
-    if (getArchtype(obj) === 0 /* Object */ ) Reflect.ownKeys(obj).forEach((key)=>{
-        iter(key, obj[key], obj);
-    });
-    else obj.forEach((entry, index)=>iter(index, entry, obj));
-}
-function getArchtype(thing) {
-    const state = thing[DRAFT_STATE];
-    return state ? state.type_ : Array.isArray(thing) ? 1 /* Array */  : isMap(thing) ? 2 /* Map */  : isSet(thing) ? 3 /* Set */  : 0 /* Object */ ;
-}
-function has(thing, prop) {
-    return getArchtype(thing) === 2 /* Map */  ? thing.has(prop) : Object.prototype.hasOwnProperty.call(thing, prop);
-}
-function get(thing, prop) {
-    return getArchtype(thing) === 2 /* Map */  ? thing.get(prop) : thing[prop];
-}
-function set(thing, propOrOldValue, value) {
-    const t = getArchtype(thing);
-    if (t === 2 /* Map */ ) thing.set(propOrOldValue, value);
-    else if (t === 3 /* Set */ ) thing.add(value);
-    else thing[propOrOldValue] = value;
-}
-function is(x, y) {
-    if (x === y) return x !== 0 || 1 / x === 1 / y;
-    else return x !== x && y !== y;
-}
-function isMap(target) {
-    return target instanceof Map;
-}
-function isSet(target) {
-    return target instanceof Set;
-}
-function latest(state) {
-    return state.copy_ || state.base_;
-}
-function shallowCopy(base, strict) {
-    if (isMap(base)) return new Map(base);
-    if (isSet(base)) return new Set(base);
-    if (Array.isArray(base)) return Array.prototype.slice.call(base);
-    const isPlain = isPlainObject(base);
-    if (strict === true || strict === "class_only" && !isPlain) {
-        const descriptors = Object.getOwnPropertyDescriptors(base);
-        delete descriptors[DRAFT_STATE];
-        let keys = Reflect.ownKeys(descriptors);
-        for(let i = 0; i < keys.length; i++){
-            const key = keys[i];
-            const desc = descriptors[key];
-            if (desc.writable === false) {
-                desc.writable = true;
-                desc.configurable = true;
-            }
-            if (desc.get || desc.set) descriptors[key] = {
-                configurable: true,
-                writable: true,
-                // could live with !!desc.set as well here...
-                enumerable: desc.enumerable,
-                value: base[key]
-            };
-        }
-        return Object.create(getPrototypeOf(base), descriptors);
-    } else {
-        const proto = getPrototypeOf(base);
-        if (proto !== null && isPlain) return __spreadValues({}, base);
-        const obj = Object.create(proto);
-        return Object.assign(obj, base);
-    }
-}
-function freeze(obj, deep = false) {
-    if (isFrozen(obj) || isDraft(obj) || !isDraftable(obj)) return obj;
-    if (getArchtype(obj) > 1) obj.set = obj.add = obj.clear = obj.delete = dontMutateFrozenCollections;
-    Object.freeze(obj);
-    if (deep) Object.entries(obj).forEach(([key, value])=>freeze(value, true));
-    return obj;
-}
-function dontMutateFrozenCollections() {
-    die(2);
-}
-function isFrozen(obj) {
-    return Object.isFrozen(obj);
-}
-// src/utils/plugins.ts
-var plugins = {};
-function getPlugin(pluginKey) {
-    const plugin = plugins[pluginKey];
-    if (!plugin) die(0, pluginKey);
-    return plugin;
-}
-function loadPlugin(pluginKey, implementation) {
-    if (!plugins[pluginKey]) plugins[pluginKey] = implementation;
-}
-// src/core/scope.ts
-var currentScope;
-function getCurrentScope() {
-    return currentScope;
-}
-function createScope(parent_, immer_) {
-    return {
-        drafts_: [],
-        parent_,
-        immer_,
-        // Whenever the modified draft contains a draft from another scope, we
-        // need to prevent auto-freezing so the unowned draft can be finalized.
-        canAutoFreeze_: true,
-        unfinalizedDrafts_: 0
-    };
-}
-function usePatchesInScope(scope, patchListener) {
-    if (patchListener) {
-        getPlugin("Patches");
-        scope.patches_ = [];
-        scope.inversePatches_ = [];
-        scope.patchListener_ = patchListener;
-    }
-}
-function revokeScope(scope) {
-    leaveScope(scope);
-    scope.drafts_.forEach(revokeDraft);
-    scope.drafts_ = null;
-}
-function leaveScope(scope) {
-    if (scope === currentScope) currentScope = scope.parent_;
-}
-function enterScope(immer2) {
-    return currentScope = createScope(currentScope, immer2);
-}
-function revokeDraft(draft) {
-    const state = draft[DRAFT_STATE];
-    if (state.type_ === 0 /* Object */  || state.type_ === 1 /* Array */ ) state.revoke_();
-    else state.revoked_ = true;
-}
-// src/core/finalize.ts
-function processResult(result, scope) {
-    scope.unfinalizedDrafts_ = scope.drafts_.length;
-    const baseDraft = scope.drafts_[0];
-    const isReplaced = result !== void 0 && result !== baseDraft;
-    if (isReplaced) {
-        if (baseDraft[DRAFT_STATE].modified_) {
-            revokeScope(scope);
-            die(4);
-        }
-        if (isDraftable(result)) {
-            result = finalize(scope, result);
-            if (!scope.parent_) maybeFreeze(scope, result);
-        }
-        if (scope.patches_) getPlugin("Patches").generateReplacementPatches_(baseDraft[DRAFT_STATE].base_, result, scope.patches_, scope.inversePatches_);
-    } else result = finalize(scope, baseDraft, []);
-    revokeScope(scope);
-    if (scope.patches_) scope.patchListener_(scope.patches_, scope.inversePatches_);
-    return result !== NOTHING ? result : void 0;
-}
-function finalize(rootScope, value, path) {
-    if (isFrozen(value)) return value;
-    const state = value[DRAFT_STATE];
-    if (!state) {
-        each(value, (key, childValue)=>finalizeProperty(rootScope, state, value, key, childValue, path));
-        return value;
-    }
-    if (state.scope_ !== rootScope) return value;
-    if (!state.modified_) {
-        maybeFreeze(rootScope, state.base_, true);
-        return state.base_;
-    }
-    if (!state.finalized_) {
-        state.finalized_ = true;
-        state.scope_.unfinalizedDrafts_--;
-        const result = state.copy_;
-        let resultEach = result;
-        let isSet2 = false;
-        if (state.type_ === 3 /* Set */ ) {
-            resultEach = new Set(result);
-            result.clear();
-            isSet2 = true;
-        }
-        each(resultEach, (key, childValue)=>finalizeProperty(rootScope, state, result, key, childValue, path, isSet2));
-        maybeFreeze(rootScope, result, false);
-        if (path && rootScope.patches_) getPlugin("Patches").generatePatches_(state, path, rootScope.patches_, rootScope.inversePatches_);
-    }
-    return state.copy_;
-}
-function finalizeProperty(rootScope, parentState, targetObject, prop, childValue, rootPath, targetIsSet) {
-    if (childValue === targetObject) die(5);
-    if (isDraft(childValue)) {
-        const path = rootPath && parentState && parentState.type_ !== 3 /* Set */  && // Set objects are atomic since they have no keys.
-        !has(parentState.assigned_, prop) ? rootPath.concat(prop) : void 0;
-        const res = finalize(rootScope, childValue, path);
-        set(targetObject, prop, res);
-        if (isDraft(res)) rootScope.canAutoFreeze_ = false;
-        else return;
-    } else if (targetIsSet) targetObject.add(childValue);
-    if (isDraftable(childValue) && !isFrozen(childValue)) {
-        if (!rootScope.immer_.autoFreeze_ && rootScope.unfinalizedDrafts_ < 1) return;
-        finalize(rootScope, childValue);
-        if ((!parentState || !parentState.scope_.parent_) && typeof prop !== "symbol" && Object.prototype.propertyIsEnumerable.call(targetObject, prop)) maybeFreeze(rootScope, childValue);
-    }
-}
-function maybeFreeze(scope, value, deep = false) {
-    if (!scope.parent_ && scope.immer_.autoFreeze_ && scope.canAutoFreeze_) freeze(value, deep);
-}
-// src/core/proxy.ts
-function createProxyProxy(base, parent) {
-    const isArray = Array.isArray(base);
-    const state = {
-        type_: isArray ? 1 /* Array */  : 0 /* Object */ ,
-        // Track which produce call this is associated with.
-        scope_: parent ? parent.scope_ : getCurrentScope(),
-        // True for both shallow and deep changes.
-        modified_: false,
-        // Used during finalization.
-        finalized_: false,
-        // Track which properties have been assigned (true) or deleted (false).
-        assigned_: {},
-        // The parent draft state.
-        parent_: parent,
-        // The base state.
-        base_: base,
-        // The base proxy.
-        draft_: null,
-        // set below
-        // The base copy with any updated values.
-        copy_: null,
-        // Called by the `produce` function.
-        revoke_: null,
-        isManual_: false
-    };
-    let target = state;
-    let traps = objectTraps;
-    if (isArray) {
-        target = [
-            state
-        ];
-        traps = arrayTraps;
-    }
-    const { revoke, proxy } = Proxy.revocable(target, traps);
-    state.draft_ = proxy;
-    state.revoke_ = revoke;
-    return proxy;
-}
-var objectTraps = {
-    get (state, prop) {
-        if (prop === DRAFT_STATE) return state;
-        const source = latest(state);
-        if (!has(source, prop)) return readPropFromProto(state, source, prop);
-        const value = source[prop];
-        if (state.finalized_ || !isDraftable(value)) return value;
-        if (value === peek(state.base_, prop)) {
-            prepareCopy(state);
-            return state.copy_[prop] = createProxy(value, state);
-        }
-        return value;
-    },
-    has (state, prop) {
-        return prop in latest(state);
-    },
-    ownKeys (state) {
-        return Reflect.ownKeys(latest(state));
-    },
-    set (state, prop, value) {
-        const desc = getDescriptorFromProto(latest(state), prop);
-        if (desc == null ? void 0 : desc.set) {
-            desc.set.call(state.draft_, value);
-            return true;
-        }
-        if (!state.modified_) {
-            const current2 = peek(latest(state), prop);
-            const currentState = current2 == null ? void 0 : current2[DRAFT_STATE];
-            if (currentState && currentState.base_ === value) {
-                state.copy_[prop] = value;
-                state.assigned_[prop] = false;
-                return true;
-            }
-            if (is(value, current2) && (value !== void 0 || has(state.base_, prop))) return true;
-            prepareCopy(state);
-            markChanged(state);
-        }
-        if (state.copy_[prop] === value && // special case: handle new props with value 'undefined'
-        (value !== void 0 || prop in state.copy_) || // special case: NaN
-        Number.isNaN(value) && Number.isNaN(state.copy_[prop])) return true;
-        state.copy_[prop] = value;
-        state.assigned_[prop] = true;
-        return true;
-    },
-    deleteProperty (state, prop) {
-        if (peek(state.base_, prop) !== void 0 || prop in state.base_) {
-            state.assigned_[prop] = false;
-            prepareCopy(state);
-            markChanged(state);
-        } else delete state.assigned_[prop];
-        if (state.copy_) delete state.copy_[prop];
-        return true;
-    },
-    // Note: We never coerce `desc.value` into an Immer draft, because we can't make
-    // the same guarantee in ES5 mode.
-    getOwnPropertyDescriptor (state, prop) {
-        const owner = latest(state);
-        const desc = Reflect.getOwnPropertyDescriptor(owner, prop);
-        if (!desc) return desc;
-        return {
-            writable: true,
-            configurable: state.type_ !== 1 /* Array */  || prop !== "length",
-            enumerable: desc.enumerable,
-            value: owner[prop]
-        };
-    },
-    defineProperty () {
-        die(11);
-    },
-    getPrototypeOf (state) {
-        return getPrototypeOf(state.base_);
-    },
-    setPrototypeOf () {
-        die(12);
-    }
-};
-var arrayTraps = {};
-each(objectTraps, (key, fn)=>{
-    arrayTraps[key] = function() {
-        arguments[0] = arguments[0][0];
-        return fn.apply(this, arguments);
-    };
-});
-arrayTraps.deleteProperty = function(state, prop) {
-    if (isNaN(parseInt(prop))) die(13);
-    return arrayTraps.set.call(this, state, prop, void 0);
-};
-arrayTraps.set = function(state, prop, value) {
-    if (prop !== "length" && isNaN(parseInt(prop))) die(14);
-    return objectTraps.set.call(this, state[0], prop, value, state[0]);
-};
-function peek(draft, prop) {
-    const state = draft[DRAFT_STATE];
-    const source = state ? latest(state) : draft;
-    return source[prop];
-}
-function readPropFromProto(state, source, prop) {
-    var _a;
-    const desc = getDescriptorFromProto(source, prop);
-    return desc ? `value` in desc ? desc.value : // This is a very special case, if the prop is a getter defined by the
-    // prototype, we should invoke it with the draft as context!
-    (_a = desc.get) == null ? void 0 : _a.call(state.draft_) : void 0;
-}
-function getDescriptorFromProto(source, prop) {
-    if (!(prop in source)) return void 0;
-    let proto = getPrototypeOf(source);
-    while(proto){
-        const desc = Object.getOwnPropertyDescriptor(proto, prop);
-        if (desc) return desc;
-        proto = getPrototypeOf(proto);
-    }
-    return void 0;
-}
-function markChanged(state) {
-    if (!state.modified_) {
-        state.modified_ = true;
-        if (state.parent_) markChanged(state.parent_);
-    }
-}
-function prepareCopy(state) {
-    if (!state.copy_) state.copy_ = shallowCopy(state.base_, state.scope_.immer_.useStrictShallowCopy_);
-}
-// src/core/immerClass.ts
-var Immer2 = class {
-    constructor(config){
-        this.autoFreeze_ = true;
-        this.useStrictShallowCopy_ = false;
-        /**
-     * The `produce` function takes a value and a "recipe function" (whose
-     * return value often depends on the base state). The recipe function is
-     * free to mutate its first argument however it wants. All mutations are
-     * only ever applied to a __copy__ of the base state.
-     *
-     * Pass only a function to create a "curried producer" which relieves you
-     * from passing the recipe function every time.
-     *
-     * Only plain objects and arrays are made mutable. All other objects are
-     * considered uncopyable.
-     *
-     * Note: This function is __bound__ to its `Immer` instance.
-     *
-     * @param {any} base - the initial state
-     * @param {Function} recipe - function that receives a proxy of the base state as first argument and which can be freely modified
-     * @param {Function} patchListener - optional function that will be called with all the patches produced here
-     * @returns {any} a new state, or the initial state if nothing was modified
-     */ this.produce = (base, recipe, patchListener)=>{
-            if (typeof base === "function" && typeof recipe !== "function") {
-                const defaultBase = recipe;
-                recipe = base;
-                const self = this;
-                return function curriedProduce(base2 = defaultBase, ...args) {
-                    return self.produce(base2, (draft)=>recipe.call(this, draft, ...args));
-                };
-            }
-            if (typeof recipe !== "function") die(6);
-            if (patchListener !== void 0 && typeof patchListener !== "function") die(7);
-            let result;
-            if (isDraftable(base)) {
-                const scope = enterScope(this);
-                const proxy = createProxy(base, void 0);
-                let hasError = true;
-                try {
-                    result = recipe(proxy);
-                    hasError = false;
-                } finally{
-                    if (hasError) revokeScope(scope);
-                    else leaveScope(scope);
-                }
-                usePatchesInScope(scope, patchListener);
-                return processResult(result, scope);
-            } else if (!base || typeof base !== "object") {
-                result = recipe(base);
-                if (result === void 0) result = base;
-                if (result === NOTHING) result = void 0;
-                if (this.autoFreeze_) freeze(result, true);
-                if (patchListener) {
-                    const p = [];
-                    const ip = [];
-                    getPlugin("Patches").generateReplacementPatches_(base, result, p, ip);
-                    patchListener(p, ip);
-                }
-                return result;
-            } else die(1, base);
-        };
-        this.produceWithPatches = (base, recipe)=>{
-            if (typeof base === "function") return (state, ...args)=>this.produceWithPatches(state, (draft)=>base(draft, ...args));
-            let patches, inversePatches;
-            const result = this.produce(base, recipe, (p, ip)=>{
-                patches = p;
-                inversePatches = ip;
-            });
-            return [
-                result,
-                patches,
-                inversePatches
-            ];
-        };
-        if (typeof (config == null ? void 0 : config.autoFreeze) === "boolean") this.setAutoFreeze(config.autoFreeze);
-        if (typeof (config == null ? void 0 : config.useStrictShallowCopy) === "boolean") this.setUseStrictShallowCopy(config.useStrictShallowCopy);
-    }
-    createDraft(base) {
-        if (!isDraftable(base)) die(8);
-        if (isDraft(base)) base = current(base);
-        const scope = enterScope(this);
-        const proxy = createProxy(base, void 0);
-        proxy[DRAFT_STATE].isManual_ = true;
-        leaveScope(scope);
-        return proxy;
-    }
-    finishDraft(draft, patchListener) {
-        const state = draft && draft[DRAFT_STATE];
-        if (!state || !state.isManual_) die(9);
-        const { scope_: scope } = state;
-        usePatchesInScope(scope, patchListener);
-        return processResult(void 0, scope);
-    }
-    /**
-   * Pass true to automatically freeze all copies created by Immer.
-   *
-   * By default, auto-freezing is enabled.
-   */ setAutoFreeze(value) {
-        this.autoFreeze_ = value;
-    }
-    /**
-   * Pass true to enable strict shallow copy.
-   *
-   * By default, immer does not copy the object descriptors such as getter, setter and non-enumrable properties.
-   */ setUseStrictShallowCopy(value) {
-        this.useStrictShallowCopy_ = value;
-    }
-    applyPatches(base, patches) {
-        let i;
-        for(i = patches.length - 1; i >= 0; i--){
-            const patch = patches[i];
-            if (patch.path.length === 0 && patch.op === "replace") {
-                base = patch.value;
-                break;
-            }
-        }
-        if (i > -1) patches = patches.slice(i + 1);
-        const applyPatchesImpl = getPlugin("Patches").applyPatches_;
-        if (isDraft(base)) return applyPatchesImpl(base, patches);
-        return this.produce(base, (draft)=>applyPatchesImpl(draft, patches));
-    }
-};
-function createProxy(value, parent) {
-    const draft = isMap(value) ? getPlugin("MapSet").proxyMap_(value, parent) : isSet(value) ? getPlugin("MapSet").proxySet_(value, parent) : createProxyProxy(value, parent);
-    const scope = parent ? parent.scope_ : getCurrentScope();
-    scope.drafts_.push(draft);
-    return draft;
-}
-// src/core/current.ts
-function current(value) {
-    if (!isDraft(value)) die(10, value);
-    return currentImpl(value);
-}
-function currentImpl(value) {
-    if (!isDraftable(value) || isFrozen(value)) return value;
-    const state = value[DRAFT_STATE];
-    let copy;
-    if (state) {
-        if (!state.modified_) return state.base_;
-        state.finalized_ = true;
-        copy = shallowCopy(value, state.scope_.immer_.useStrictShallowCopy_);
-    } else copy = shallowCopy(value, true);
-    each(copy, (key, childValue)=>{
-        set(copy, key, currentImpl(childValue));
-    });
-    if (state) state.finalized_ = false;
-    return copy;
-}
-// src/plugins/patches.ts
-function enablePatches() {
-    const errorOffset = 16;
-    errors.push('Sets cannot have "replace" patches.', function(op) {
-        return "Unsupported patch operation: " + op;
-    }, function(path) {
-        return "Cannot apply patch, path doesn't resolve: " + path;
-    }, "Patching reserved attributes like __proto__, prototype and constructor is not allowed");
-    const REPLACE = "replace";
-    const ADD = "add";
-    const REMOVE = "remove";
-    function generatePatches_(state, basePath, patches, inversePatches) {
-        switch(state.type_){
-            case 0 /* Object */ :
-            case 2 /* Map */ :
-                return generatePatchesFromAssigned(state, basePath, patches, inversePatches);
-            case 1 /* Array */ :
-                return generateArrayPatches(state, basePath, patches, inversePatches);
-            case 3 /* Set */ :
-                return generateSetPatches(state, basePath, patches, inversePatches);
-        }
-    }
-    function generateArrayPatches(state, basePath, patches, inversePatches) {
-        let { base_, assigned_ } = state;
-        let copy_ = state.copy_;
-        if (copy_.length < base_.length) {
-            [base_, copy_] = [
-                copy_,
-                base_
-            ];
-            [patches, inversePatches] = [
-                inversePatches,
-                patches
-            ];
-        }
-        for(let i = 0; i < base_.length; i++)if (assigned_[i] && copy_[i] !== base_[i]) {
-            const path = basePath.concat([
-                i
-            ]);
-            patches.push({
-                op: REPLACE,
-                path,
-                // Need to maybe clone it, as it can in fact be the original value
-                // due to the base/copy inversion at the start of this function
-                value: clonePatchValueIfNeeded(copy_[i])
-            });
-            inversePatches.push({
-                op: REPLACE,
-                path,
-                value: clonePatchValueIfNeeded(base_[i])
-            });
-        }
-        for(let i = base_.length; i < copy_.length; i++){
-            const path = basePath.concat([
-                i
-            ]);
-            patches.push({
-                op: ADD,
-                path,
-                // Need to maybe clone it, as it can in fact be the original value
-                // due to the base/copy inversion at the start of this function
-                value: clonePatchValueIfNeeded(copy_[i])
-            });
-        }
-        for(let i = copy_.length - 1; base_.length <= i; --i){
-            const path = basePath.concat([
-                i
-            ]);
-            inversePatches.push({
-                op: REMOVE,
-                path
-            });
-        }
-    }
-    function generatePatchesFromAssigned(state, basePath, patches, inversePatches) {
-        const { base_, copy_ } = state;
-        each(state.assigned_, (key, assignedValue)=>{
-            const origValue = get(base_, key);
-            const value = get(copy_, key);
-            const op = !assignedValue ? REMOVE : has(base_, key) ? REPLACE : ADD;
-            if (origValue === value && op === REPLACE) return;
-            const path = basePath.concat(key);
-            patches.push(op === REMOVE ? {
-                op,
-                path
-            } : {
-                op,
-                path,
-                value
-            });
-            inversePatches.push(op === ADD ? {
-                op: REMOVE,
-                path
-            } : op === REMOVE ? {
-                op: ADD,
-                path,
-                value: clonePatchValueIfNeeded(origValue)
-            } : {
-                op: REPLACE,
-                path,
-                value: clonePatchValueIfNeeded(origValue)
-            });
-        });
-    }
-    function generateSetPatches(state, basePath, patches, inversePatches) {
-        let { base_, copy_ } = state;
-        let i = 0;
-        base_.forEach((value)=>{
-            if (!copy_.has(value)) {
-                const path = basePath.concat([
-                    i
-                ]);
-                patches.push({
-                    op: REMOVE,
-                    path,
-                    value
-                });
-                inversePatches.unshift({
-                    op: ADD,
-                    path,
-                    value
-                });
-            }
-            i++;
-        });
-        i = 0;
-        copy_.forEach((value)=>{
-            if (!base_.has(value)) {
-                const path = basePath.concat([
-                    i
-                ]);
-                patches.push({
-                    op: ADD,
-                    path,
-                    value
-                });
-                inversePatches.unshift({
-                    op: REMOVE,
-                    path,
-                    value
-                });
-            }
-            i++;
-        });
-    }
-    function generateReplacementPatches_(baseValue, replacement, patches, inversePatches) {
-        patches.push({
-            op: REPLACE,
-            path: [],
-            value: replacement === NOTHING ? void 0 : replacement
-        });
-        inversePatches.push({
-            op: REPLACE,
-            path: [],
-            value: baseValue
-        });
-    }
-    function applyPatches_(draft, patches) {
-        patches.forEach((patch)=>{
-            const { path, op } = patch;
-            let base = draft;
-            for(let i = 0; i < path.length - 1; i++){
-                const parentType = getArchtype(base);
-                let p = path[i];
-                if (typeof p !== "string" && typeof p !== "number") p = "" + p;
-                if ((parentType === 0 /* Object */  || parentType === 1 /* Array */ ) && (p === "__proto__" || p === "constructor")) die(errorOffset + 3);
-                if (typeof base === "function" && p === "prototype") die(errorOffset + 3);
-                base = get(base, p);
-                if (typeof base !== "object") die(errorOffset + 2, path.join("/"));
-            }
-            const type = getArchtype(base);
-            const value = deepClonePatchValue(patch.value);
-            const key = path[path.length - 1];
-            switch(op){
-                case REPLACE:
-                    switch(type){
-                        case 2 /* Map */ :
-                            return base.set(key, value);
-                        case 3 /* Set */ :
-                            die(errorOffset);
-                        default:
-                            return base[key] = value;
-                    }
-                case ADD:
-                    switch(type){
-                        case 1 /* Array */ :
-                            return key === "-" ? base.push(value) : base.splice(key, 0, value);
-                        case 2 /* Map */ :
-                            return base.set(key, value);
-                        case 3 /* Set */ :
-                            return base.add(value);
-                        default:
-                            return base[key] = value;
-                    }
-                case REMOVE:
-                    switch(type){
-                        case 1 /* Array */ :
-                            return base.splice(key, 1);
-                        case 2 /* Map */ :
-                            return base.delete(key);
-                        case 3 /* Set */ :
-                            return base.delete(patch.value);
-                        default:
-                            return delete base[key];
-                    }
-                default:
-                    die(errorOffset + 1, op);
-            }
-        });
-        return draft;
-    }
-    function deepClonePatchValue(obj) {
-        if (!isDraftable(obj)) return obj;
-        if (Array.isArray(obj)) return obj.map(deepClonePatchValue);
-        if (isMap(obj)) return new Map(Array.from(obj.entries()).map(([k, v])=>[
-                k,
-                deepClonePatchValue(v)
-            ]));
-        if (isSet(obj)) return new Set(Array.from(obj).map(deepClonePatchValue));
-        const cloned = Object.create(getPrototypeOf(obj));
-        for(const key in obj)cloned[key] = deepClonePatchValue(obj[key]);
-        if (has(obj, DRAFTABLE)) cloned[DRAFTABLE] = obj[DRAFTABLE];
-        return cloned;
-    }
-    function clonePatchValueIfNeeded(obj) {
-        if (isDraft(obj)) return deepClonePatchValue(obj);
-        else return obj;
-    }
-    loadPlugin("Patches", {
-        applyPatches_,
-        generatePatches_,
-        generateReplacementPatches_
-    });
-}
-// src/plugins/mapset.ts
-function enableMapSet() {
-    class DraftMap extends Map {
-        constructor(target, parent){
-            super();
-            this[DRAFT_STATE] = {
-                type_: 2 /* Map */ ,
-                parent_: parent,
-                scope_: parent ? parent.scope_ : getCurrentScope(),
-                modified_: false,
-                finalized_: false,
-                copy_: void 0,
-                assigned_: void 0,
-                base_: target,
-                draft_: this,
-                isManual_: false,
-                revoked_: false
-            };
-        }
-        get size() {
-            return latest(this[DRAFT_STATE]).size;
-        }
-        has(key) {
-            return latest(this[DRAFT_STATE]).has(key);
-        }
-        set(key, value) {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            if (!latest(state).has(key) || latest(state).get(key) !== value) {
-                prepareMapCopy(state);
-                markChanged(state);
-                state.assigned_.set(key, true);
-                state.copy_.set(key, value);
-                state.assigned_.set(key, true);
-            }
-            return this;
-        }
-        delete(key) {
-            if (!this.has(key)) return false;
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            prepareMapCopy(state);
-            markChanged(state);
-            if (state.base_.has(key)) state.assigned_.set(key, false);
-            else state.assigned_.delete(key);
-            state.copy_.delete(key);
-            return true;
-        }
-        clear() {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            if (latest(state).size) {
-                prepareMapCopy(state);
-                markChanged(state);
-                state.assigned_ = /* @__PURE__ */ new Map();
-                each(state.base_, (key)=>{
-                    state.assigned_.set(key, false);
-                });
-                state.copy_.clear();
-            }
-        }
-        forEach(cb, thisArg) {
-            const state = this[DRAFT_STATE];
-            latest(state).forEach((_value, key, _map)=>{
-                cb.call(thisArg, this.get(key), key, this);
-            });
-        }
-        get(key) {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            const value = latest(state).get(key);
-            if (state.finalized_ || !isDraftable(value)) return value;
-            if (value !== state.base_.get(key)) return value;
-            const draft = createProxy(value, state);
-            prepareMapCopy(state);
-            state.copy_.set(key, draft);
-            return draft;
-        }
-        keys() {
-            return latest(this[DRAFT_STATE]).keys();
-        }
-        values() {
-            const iterator = this.keys();
-            return {
-                [Symbol.iterator]: ()=>this.values(),
-                next: ()=>{
-                    const r = iterator.next();
-                    if (r.done) return r;
-                    const value = this.get(r.value);
-                    return {
-                        done: false,
-                        value
-                    };
-                }
-            };
-        }
-        entries() {
-            const iterator = this.keys();
-            return {
-                [Symbol.iterator]: ()=>this.entries(),
-                next: ()=>{
-                    const r = iterator.next();
-                    if (r.done) return r;
-                    const value = this.get(r.value);
-                    return {
-                        done: false,
-                        value: [
-                            r.value,
-                            value
-                        ]
-                    };
-                }
-            };
-        }
-        [(DRAFT_STATE, Symbol.iterator)]() {
-            return this.entries();
-        }
-    }
-    function proxyMap_(target, parent) {
-        return new DraftMap(target, parent);
-    }
-    function prepareMapCopy(state) {
-        if (!state.copy_) {
-            state.assigned_ = /* @__PURE__ */ new Map();
-            state.copy_ = new Map(state.base_);
-        }
-    }
-    class DraftSet extends Set {
-        constructor(target, parent){
-            super();
-            this[DRAFT_STATE] = {
-                type_: 3 /* Set */ ,
-                parent_: parent,
-                scope_: parent ? parent.scope_ : getCurrentScope(),
-                modified_: false,
-                finalized_: false,
-                copy_: void 0,
-                base_: target,
-                draft_: this,
-                drafts_: /* @__PURE__ */ new Map(),
-                revoked_: false,
-                isManual_: false
-            };
-        }
-        get size() {
-            return latest(this[DRAFT_STATE]).size;
-        }
-        has(value) {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            if (!state.copy_) return state.base_.has(value);
-            if (state.copy_.has(value)) return true;
-            if (state.drafts_.has(value) && state.copy_.has(state.drafts_.get(value))) return true;
-            return false;
-        }
-        add(value) {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            if (!this.has(value)) {
-                prepareSetCopy(state);
-                markChanged(state);
-                state.copy_.add(value);
-            }
-            return this;
-        }
-        delete(value) {
-            if (!this.has(value)) return false;
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            prepareSetCopy(state);
-            markChanged(state);
-            return state.copy_.delete(value) || (state.drafts_.has(value) ? state.copy_.delete(state.drafts_.get(value)) : /* istanbul ignore next */ false);
-        }
-        clear() {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            if (latest(state).size) {
-                prepareSetCopy(state);
-                markChanged(state);
-                state.copy_.clear();
-            }
-        }
-        values() {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            prepareSetCopy(state);
-            return state.copy_.values();
-        }
-        entries() {
-            const state = this[DRAFT_STATE];
-            assertUnrevoked(state);
-            prepareSetCopy(state);
-            return state.copy_.entries();
-        }
-        keys() {
-            return this.values();
-        }
-        [(DRAFT_STATE, Symbol.iterator)]() {
-            return this.values();
-        }
-        forEach(cb, thisArg) {
-            const iterator = this.values();
-            let result = iterator.next();
-            while(!result.done){
-                cb.call(thisArg, result.value, result.value, this);
-                result = iterator.next();
-            }
-        }
-    }
-    function proxySet_(target, parent) {
-        return new DraftSet(target, parent);
-    }
-    function prepareSetCopy(state) {
-        if (!state.copy_) {
-            state.copy_ = /* @__PURE__ */ new Set();
-            state.base_.forEach((value)=>{
-                if (isDraftable(value)) {
-                    const draft = createProxy(value, state);
-                    state.drafts_.set(value, draft);
-                    state.copy_.add(draft);
-                } else state.copy_.add(value);
-            });
-        }
-    }
-    function assertUnrevoked(state) {
-        if (state.revoked_) die(3, JSON.stringify(latest(state)));
-    }
-    loadPlugin("MapSet", {
-        proxyMap_,
-        proxySet_
-    });
-}
-// src/immer.ts
-var immer = new Immer2();
-var produce = immer.produce;
-var produceWithPatches = immer.produceWithPatches.bind(immer);
-var setAutoFreeze = immer.setAutoFreeze.bind(immer);
-var setUseStrictShallowCopy = immer.setUseStrictShallowCopy.bind(immer);
-var applyPatches = immer.applyPatches.bind(immer);
-var createDraft = immer.createDraft.bind(immer);
-var finishDraft = immer.finishDraft.bind(immer);
-function castDraft(value) {
-    return value;
-}
-function castImmutable(value) {
-    return value;
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a4FZS":[function(require,module,exports) {
@@ -39585,321 +39476,7 @@ function persistAppliedTransitions(_window, transitions) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("7422ead32dcc1e6b");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports;
-                // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-                // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        var typeID = id + " %exports% " + key;
-        Refresh.register(exportValue, typeID);
-    }
-}
-
-},{"7422ead32dcc1e6b":"786KC"}],"t2gdX":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "store", ()=>store);
-var _redux = require("redux");
-var _productslist = require("./productslist");
-var _productsSlices = require("./productsSlices");
-var _productsSlicesDefault = parcelHelpers.interopDefault(_productsSlices);
-var _cartSlices = require("./cartSlices");
-var _whishlistSlices = require("./whishlistSlices");
-var _whishlistSlicesDefault = parcelHelpers.interopDefault(_whishlistSlices);
-var _immer = require("immer");
-var _toolkit = require("@reduxjs/toolkit");
-var _logger = require("../../middlewares/logger");
-var _api = require("../../middlewares/api");
-// const CART_ADD_ITEM ='cart/additem'
-// const CART_REMOVE_ITEM ='cart/removeitem'
-// const WHISHLIST_ADD_ITEM ='whislist/additem'
-// const INCREASE_PRODUCT_QUANTITY ='product/increaseItem'
-// const DECREASE_PRODUCT_QUANTITY ='product/decreaseItem'
-// const initialState={
-//     products:productlist,
-//     cartItems:[],
-//     whisList:[]
-// }
-const reducer = (0, _redux.combineReducers)({
-    products: (0, _productsSlicesDefault.default),
-    cartItems: (0, _cartSlices.cartReducer),
-    whisList: (0, _whishlistSlicesDefault.default)
-});
-const store = (0, _toolkit.configureStore)({
-    reducer,
-    middleware: ()=>[
-            (0, _api.apimiddleware)
-        ]
-});
-// console.log(store.getState())
-// console.log(productlist)
-// store.dispatch(addWhishlist(1))
-// store.dispatch(addWhishlist(12))
-// store.dispatch(cartAddItem({id:3,quantity:4}))
-// store.dispatch(cartAddItem({id:1,quantity:1}))
-// store.dispatch(cartAddItem({id:12,quantity:1}))
-// store.dispatch(cartRemoveItem(1))
-// store.dispatch(increaseItem({id:1}))
-// store.dispatch(decreaseItem({id:12}))
-// store.dispatch({type:WHISHLIST_ADD_ITEM,payload:{id:1}})
-// store.dispatch({type:WHISHLIST_ADD_ITEM,payload:{id:12}})
-// console.dir(store)
-/*trying Immer*/ // const users=[
-//     {
-//         id:1,
-//         name:'pk',
-//     }
-//     ,
-//     {
-//         id:2,
-//         name:'rk',
-//     }
-//     ,
-//     {
-//         id:3,
-//         name:'mk',
-//     }
-// ]
-// const newUsers=produce(users,(usersCopy)=>{
-//     console.log(usersCopy)
-//     usersCopy[1].id=70
-// })
-// console.log(users)
-// console.log(newUsers)
-// console.log(users === newUsers)
-/*trying Immer*/ console.log((0, _cartSlices.slice));
-console.log((0, _cartSlices.slice).actions);
-
-},{"redux":"anWnS","./productslist":"NcjOz","./productsSlices":"luWNS","./cartSlices":"4Mi0S","./whishlistSlices":"8uQ2w","immer":"gxfm0","@reduxjs/toolkit":"fuua8","../../middlewares/logger":"c5Ka1","../../middlewares/api":"23evC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"luWNS":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "addProducts", ()=>addProducts);
-parcelHelpers.export(exports, "setLoading", ()=>setLoading);
-parcelHelpers.export(exports, "fetchProductsError", ()=>fetchProductsError);
-var _toolkit = require("@reduxjs/toolkit");
-var _productslist = require("./productslist");
-// export default function productReducer(state=productlist,action){
-//     return state
-// }
-const slice = (0, _toolkit.createSlice)({
-    name: "product",
-    initialState: {
-        list: [],
-        loading: false,
-        error: ""
-    },
-    reducers: {
-        addProducts (state, action) {
-            state.loading = false;
-            state.list = action.payload;
-            state.error = "";
-        },
-        setLoading (state) {
-            state.loading = true;
-        },
-        fetchProductsError (state, action) {
-            state.loading = false, state.error = action.payload || "ERROR OCCURED";
-        }
-    }
-});
-exports.default = slice.reducer;
-const { addProducts, setLoading, fetchProductsError } = slice.actions;
-
-},{"@reduxjs/toolkit":"fuua8","./productslist":"NcjOz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8uQ2w":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "WHISHLIST_ADD_ITEM", ()=>WHISHLIST_ADD_ITEM);
-parcelHelpers.export(exports, "addWhishlist", ()=>addWhishlist);
-parcelHelpers.export(exports, "default", ()=>whisListReducer);
-const WHISHLIST_ADD_ITEM = "whislist/additem";
-const addWhishlist = (id)=>{
-    return {
-        type: WHISHLIST_ADD_ITEM,
-        payload: {
-            id: id
-        }
-    };
-};
-function whisListReducer(state = [], action) {
-    switch(action.type){
-        case WHISHLIST_ADD_ITEM:
-            return [
-                ...state,
-                action.payload
-            ];
-        default:
-            return state;
-    }
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c5Ka1":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "logger", ()=>logger);
-const logger = (stroe)=>(next)=>(action)=>{
-            console.log(stroe);
-            next(action);
-        };
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"23evC":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "apimiddleware", ()=>apimiddleware);
-parcelHelpers.export(exports, "fetchData", ()=>fetchData);
-var _productsSlices = require("../store/slices/productsSlices");
-const apimiddleware = ({ dispatch })=>(next)=>(action)=>{
-            const BASE_URL = "https://fakestoreapi.com";
-            if (action.type === "api/makeCall") {
-                next(action);
-                const { url, onError, onStart, onSuccess } = action.payload;
-                dispatch({
-                    type: onStart
-                });
-                fetch(`${BASE_URL}/${url}`).then((res)=>res.json()).then((data)=>dispatch({
-                        type: onSuccess,
-                        payload: data
-                    })).catch(()=>{
-                    dispatch({
-                        type: onError
-                    });
-                });
-                console.log(url);
-            } else next(action);
-        };
-const fetchData = (payload)=>({
-        type: "api/makeCall",
-        payload
-    });
-
-},{"../store/slices/productsSlices":"luWNS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7g3a6":[function() {},{}],"l4D8n":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7g3a6":[function() {},{}],"l4D8n":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a99a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40029,7 +39606,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../assets/cart-icon.svg":"huH7s","react-redux":"62sf7","../store/slices/productsSlices":"luWNS","../store/slices/productslist":"NcjOz","../store/slices/cartSlices":"4Mi0S","../middlewares/api":"23evC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"huH7s":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../assets/cart-icon.svg":"huH7s","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-redux":"62sf7","../store/slices/productsSlices":"luWNS","../store/slices/productslist":"NcjOz","../store/slices/cartSlices":"4Mi0S","../middlewares/api":"23evC"}],"huH7s":[function(require,module,exports) {
 module.exports = require("9e8f57211c788b64").getBundleURL("3gKDs") + "cart-icon.1f3296c5.svg" + "?" + Date.now();
 
 },{"9e8f57211c788b64":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -40067,7 +39644,430 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}],"63CgF":[function(require,module,exports) {
+},{}],"luWNS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "addProducts", ()=>addProducts);
+parcelHelpers.export(exports, "setLoading", ()=>setLoading);
+parcelHelpers.export(exports, "fetchProductsError", ()=>fetchProductsError);
+var _toolkit = require("@reduxjs/toolkit");
+var _productslist = require("./productslist");
+// export default function productReducer(state=productlist,action){
+//     return state
+// }
+const slice = (0, _toolkit.createSlice)({
+    name: "product",
+    initialState: {
+        list: [],
+        loading: false,
+        error: ""
+    },
+    reducers: {
+        addProducts (state, action) {
+            state.loading = false;
+            state.list = action.payload;
+            state.error = "";
+        },
+        setLoading (state) {
+            state.loading = true;
+        },
+        fetchProductsError (state, action) {
+            state.loading = false, state.error = action.payload || "ERROR OCCURED";
+        }
+    }
+});
+exports.default = slice.reducer;
+const { addProducts, setLoading, fetchProductsError } = slice.actions;
+
+},{"./productslist":"NcjOz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@reduxjs/toolkit":"fuua8"}],"NcjOz":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "productlist", ()=>productlist);
+const productlist = [
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Mens Casual Slim Fit",
+        "price": 15.99,
+        "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+        "price": 695,
+        "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Solid Gold Petite Micropave ",
+        "price": 168,
+        "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "White Gold Plated Princess",
+        "price": 9.99,
+        "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+        "price": 10.99,
+        "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+        "category": "jewelery",
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user\u2019s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5\u201D hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) \u2013 Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        }
+    },
+    {
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        }
+    },
+    {
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        }
+    },
+    {
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        }
+    },
+    {
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        }
+    },
+    {
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        }
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"23evC":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "apimiddleware", ()=>apimiddleware);
+parcelHelpers.export(exports, "fetchData", ()=>fetchData);
+var _productsSlices = require("../store/slices/productsSlices");
+const apimiddleware = ({ dispatch })=>(next)=>(action)=>{
+            const BASE_URL = "https://fakestoreapi.com";
+            if (action.type === "api/makeCall") {
+                next(action);
+                const { url, onError, onStart, onSuccess } = action.payload;
+                dispatch({
+                    type: onStart
+                });
+                fetch(`${BASE_URL}/${url}`).then((res)=>res.json()).then((data)=>dispatch({
+                        type: onSuccess,
+                        payload: data
+                    })).catch(()=>{
+                    dispatch({
+                        type: onError
+                    });
+                });
+                console.log(url);
+            } else next(action);
+        };
+const fetchData = (payload)=>({
+        type: "api/makeCall",
+        payload
+    });
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../store/slices/productsSlices":"luWNS"}],"t2gdX":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "store", ()=>store);
+var _redux = require("redux");
+var _productslist = require("./productslist");
+var _productsSlices = require("./productsSlices");
+var _productsSlicesDefault = parcelHelpers.interopDefault(_productsSlices);
+var _cartSlices = require("./cartSlices");
+var _whishlistSlices = require("./whishlistSlices");
+var _whishlistSlicesDefault = parcelHelpers.interopDefault(_whishlistSlices);
+var _immer = require("immer");
+var _toolkit = require("@reduxjs/toolkit");
+var _logger = require("../../middlewares/logger");
+var _api = require("../../middlewares/api");
+// const CART_ADD_ITEM ='cart/additem'
+// const CART_REMOVE_ITEM ='cart/removeitem'
+// const WHISHLIST_ADD_ITEM ='whislist/additem'
+// const INCREASE_PRODUCT_QUANTITY ='product/increaseItem'
+// const DECREASE_PRODUCT_QUANTITY ='product/decreaseItem'
+// const initialState={
+//     products:productlist,
+//     cartItems:[],
+//     whisList:[]
+// }
+const reducer = (0, _redux.combineReducers)({
+    products: (0, _productsSlicesDefault.default),
+    cartItems: (0, _cartSlices.cartReducer),
+    whisList: (0, _whishlistSlicesDefault.default)
+});
+const store = (0, _toolkit.configureStore)({
+    reducer,
+    middleware: ()=>[
+            (0, _api.apimiddleware)
+        ]
+});
+// console.log(store.getState())
+// console.log(productlist)
+// store.dispatch(addWhishlist(1))
+// store.dispatch(addWhishlist(12))
+// store.dispatch(cartAddItem({id:3,quantity:4}))
+// store.dispatch(cartAddItem({id:1,quantity:1}))
+// store.dispatch(cartAddItem({id:12,quantity:1}))
+// store.dispatch(cartRemoveItem(1))
+// store.dispatch(increaseItem({id:1}))
+// store.dispatch(decreaseItem({id:12}))
+// store.dispatch({type:WHISHLIST_ADD_ITEM,payload:{id:1}})
+// store.dispatch({type:WHISHLIST_ADD_ITEM,payload:{id:12}})
+// console.dir(store)
+/*trying Immer*/ // const users=[
+//     {
+//         id:1,
+//         name:'pk',
+//     }
+//     ,
+//     {
+//         id:2,
+//         name:'rk',
+//     }
+//     ,
+//     {
+//         id:3,
+//         name:'mk',
+//     }
+// ]
+// const newUsers=produce(users,(usersCopy)=>{
+//     console.log(usersCopy)
+//     usersCopy[1].id=70
+// })
+// console.log(users)
+// console.log(newUsers)
+// console.log(users === newUsers)
+/*trying Immer*/ console.log((0, _cartSlices.slice));
+console.log((0, _cartSlices.slice).actions);
+
+},{"redux":"anWnS","./productslist":"NcjOz","./productsSlices":"luWNS","./cartSlices":"4Mi0S","./whishlistSlices":"8uQ2w","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","immer":"gxfm0","@reduxjs/toolkit":"fuua8","../../middlewares/logger":"c5Ka1","../../middlewares/api":"23evC"}],"8uQ2w":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "WHISHLIST_ADD_ITEM", ()=>WHISHLIST_ADD_ITEM);
+parcelHelpers.export(exports, "addWhishlist", ()=>addWhishlist);
+parcelHelpers.export(exports, "default", ()=>whisListReducer);
+const WHISHLIST_ADD_ITEM = "whislist/additem";
+const addWhishlist = (id)=>{
+    return {
+        type: WHISHLIST_ADD_ITEM,
+        payload: {
+            id: id
+        }
+    };
+};
+function whisListReducer(state = [], action) {
+    switch(action.type){
+        case WHISHLIST_ADD_ITEM:
+            return [
+                ...state,
+                action.payload
+            ];
+        default:
+            return state;
+    }
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c5Ka1":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "logger", ()=>logger);
+const logger = (stroe)=>(next)=>(action)=>{
+            console.log(stroe);
+            next(action);
+        };
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"63CgF":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$dee9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40137,7 +40137,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"62sf7","../App.css":"7g3a6","../Components/Products":"1s9w8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}],"bg1io":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../App.css":"7g3a6","../Components/Products":"1s9w8"}],"7g3a6":[function() {},{}],"bg1io":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$a0c8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40332,7 +40332,7 @@ $RefreshReg$(_c, "Cart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Components/CartItem":"kLyU7","../App.css":"7g3a6","react-redux":"62sf7","../store/slices/cartSlices":"4Mi0S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kLyU7":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Components/CartItem":"kLyU7","../App.css":"7g3a6","react-redux":"62sf7","../store/slices/cartSlices":"4Mi0S"}],"kLyU7":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$3b6d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -40485,6 +40485,6 @@ $RefreshReg$(_c, "CartItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../store/slices/cartSlices":"4Mi0S","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7g3a6":[function() {},{}]},["6DoTH","1xC6H","adjPd"], "adjPd", "parcelRequire2d1f")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-redux":"62sf7","../store/slices/cartSlices":"4Mi0S"}],"7g3a6":[function() {},{}]},["6DoTH","1xC6H","adjPd"], "adjPd", "parcelRequire2d1f")
 
 //# sourceMappingURL=index.63aff760.js.map
